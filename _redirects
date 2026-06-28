@@ -1,3 +1,23 @@
 http://v2archdesign.com/* https://v2archdesign.com/:splat 301!
 http://www.v2archdesign.com/* https://v2archdesign.com/:splat 301!
-/  /html/index.html  301
+
+/html/index.html            /               301
+/html/about.html            /about          301
+/html/project.html          /projects       301
+/html/contact.html          /contact        301
+/html/news.html             /news           301
+/html/project-hospital.html    /project-hospital    301
+/html/project-government.html  /project-government  301
+/html/project-interior.html    /project-interior    301
+/html/project-commercial.html  /project-commercial  301
+/html/project-landscape.html   /project-landscape   301
+
+/about.html         /about          301
+/news.html          /news           301
+/project.html       /projects       301
+/contact.html       /contact        301
+/project-hospital.html    /project-hospital    301
+/project-government.html  /project-government  301
+/project-interior.html    /project-interior    301
+/project-commercial.html  /project-commercial  301
+/project-landscape.html   /project-landscape   301

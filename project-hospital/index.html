@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="../css/style.css?v=9">
 	<link rel="stylesheet" href="../css/enhancements.css?v=9">
 	<style>
-		/* ── Project Hero ── */
+		/* â”€â”€ Project Hero â”€â”€ */
 		.project-hero {
 			position: relative; height: 70vh; min-height: 480px;
 			overflow: hidden; background: #0a0a0a;
@@ -40,7 +40,7 @@
 		}
 		.project-back-link:hover { color: #f01f05; }
 
-		/* ── Meta Bar ── */
+		/* â”€â”€ Meta Bar â”€â”€ */
 		.project-meta-bar {
 			background: #141414; border-bottom: 1px solid #252525;
 		}
@@ -61,7 +61,7 @@
 			color: #fff; text-transform: uppercase;
 		}
 
-		/* ── Project Body ── */
+		/* â”€â”€ Project Body â”€â”€ */
 		.project-body { padding: 72px 0; }
 		.project-layout { display: grid; grid-template-columns: 1fr 380px; gap: 64px; align-items: start; }
 		.project-description h2 {
@@ -87,7 +87,7 @@
 			background: #f01f05; transform: translateY(-50%) rotate(45deg);
 		}
 
-		/* ── Sidebar ── */
+		/* â”€â”€ Sidebar â”€â”€ */
 		.project-sidebar {}
 		.sidebar-card {
 			background: #141414; border: 1px solid #252525;
@@ -107,7 +107,7 @@
 		.sidebar-row span:first-child { color: #555; letter-spacing: 1px; }
 		.sidebar-row span:last-child { color: #ccc; font-weight: 700; }
 
-		/* ── Gallery ── */
+		/* â”€â”€ Gallery â”€â”€ */
 		.project-gallery { padding: 0 0 72px; }
 		.gallery-heading {
 			font-size: 10px; letter-spacing: 5px; text-transform: uppercase;
@@ -130,7 +130,7 @@
 		}
 		.gallery-cell:hover img { transform: scale(1.06); opacity: .85; }
 
-		/* ── More Projects ── */
+		/* â”€â”€ More Projects â”€â”€ */
 		.more-projects { background: #141414; border-top: 1px solid #252525; padding: 64px 0; }
 		.mp-slider-wrap{display:flex;align-items:center;gap:16px;margin-top:32px}.mp-slider-viewport{overflow:hidden;flex:1}.mp-slider-track{display:flex;gap:24px;transition:transform .4s ease}.mp-card{flex:0 0 calc((100% - 48px) / 3);min-width:0;text-decoration:none;display:block}.mp-btn{background:#1a1a1a;border:1px solid #2a2a2a;color:#fff;width:44px;height:44px;cursor:pointer;flex-shrink:0;font-size:20px;transition:background .3s;display:flex;align-items:center;justify-content:center}.mp-btn:hover{background:#f01f05;border-color:#f01f05}.mp-btn:disabled{opacity:.25;cursor:default;pointer-events:none}
 		.mp-card-img {
@@ -165,7 +165,7 @@
 	<!-- Header -->
 	<div class="site-header">
 		<div class="container">
-			<a href="index.html" id="branding">
+			<a href="/" id="branding">
 				<img src="../images/logo1.png" alt="v2archdesign logo" class="logo">
 				<div class="logo-text">
 					<h1 class="site-title">v2archdesign</h1>
@@ -175,11 +175,11 @@
 			<div class="main-navigation">
 				<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 				<ul class="menu">
-					<li class="menu-item"><a href="index.html">Home</a></li>
-					<li class="menu-item"><a href="news.html">News</a></li>
-					<li class="menu-item"><a href="about.html">About</a></li>
-					<li class="menu-item current-menu-item"><a href="project.html">Our Projects</a></li>
-					<li class="menu-item"><a href="contact.html">Contact</a></li>
+					<li class="menu-item"><a href="/">Home</a></li>
+					<li class="menu-item"><a href="/news">News</a></li>
+					<li class="menu-item"><a href="/about">About</a></li>
+					<li class="menu-item current-menu-item"><a href="/projects">Our Projects</a></li>
+					<li class="menu-item"><a href="/contact">Contact</a></li>
 				</ul>
 			</div>
 			<div class="mobile-navigation"></div>
@@ -194,7 +194,7 @@
 			<div class="project-hero-overlay"></div>
 			<div class="project-hero-content">
 				<div class="container">
-					<a href="project.html" class="project-back-link"><i class="fa fa-arrow-left"></i> Back to Projects</a>
+					<a href="/projects" class="project-back-link"><i class="fa fa-arrow-left"></i> Back to Projects</a>
 					<span class="phb-tag">Healthcare Architecture</span>
 					<h1 class="project-hero-title">Lotus Hospital</h1>
 				</div>
@@ -261,7 +261,7 @@
 						<div class="sidebar-card">
 							<h3>Have a Similar Project?</h3>
 							<p style="color:#888;font-size:14px;line-height:1.8;margin-bottom:18px;">We design hospitals, clinics, and diagnostic centres. Talk to us about your requirements.</p>
-							<a href="contact.html" class="button" style="display:inline-block;">Get in Touch</a>
+							<a href="/contact" class="button" style="display:inline-block;">Get in Touch</a>
 						</div>
 					</div>
 
@@ -285,10 +285,10 @@
 					<button class="mp-btn mp-prev"><i class="fa fa-angle-left"></i></button>
 					<div class="mp-slider-viewport">
 						<div class="mp-slider-track">
-							<a href="project-government.html" class="mp-card"><div class="mp-card-img"><img src="../images/government.jpg" alt="Government"></div><span class="mp-card-tag">Government</span><span class="mp-card-title">Government Guest House</span></a>
-							<a href="project-interior.html" class="mp-card"><div class="mp-card-img"><img src="../images/project4interior.jpg" alt="Interior"></div><span class="mp-card-tag">Interior</span><span class="mp-card-title">Interior Design</span></a>
-							<a href="project-commercial.html" class="mp-card"><div class="mp-card-img"><img src="../images/building.jpg" alt="Commercial"></div><span class="mp-card-tag">Commercial</span><span class="mp-card-title">Commercial Building</span></a>
-							<a href="project-landscape.html" class="mp-card"><div class="mp-card-img"><img src="../images/index2.jpg" alt="Landscape"></div><span class="mp-card-tag">Landscape</span><span class="mp-card-title">Landscape &amp; Garden</span></a>
+							<a href="/project-government" class="mp-card"><div class="mp-card-img"><img src="../images/government.jpg" alt="Government"></div><span class="mp-card-tag">Government</span><span class="mp-card-title">Government Guest House</span></a>
+							<a href="/project-interior" class="mp-card"><div class="mp-card-img"><img src="../images/project4interior.jpg" alt="Interior"></div><span class="mp-card-tag">Interior</span><span class="mp-card-title">Interior Design</span></a>
+							<a href="/project-commercial" class="mp-card"><div class="mp-card-img"><img src="../images/building.jpg" alt="Commercial"></div><span class="mp-card-tag">Commercial</span><span class="mp-card-title">Commercial Building</span></a>
+							<a href="/project-landscape" class="mp-card"><div class="mp-card-img"><img src="../images/index2.jpg" alt="Landscape"></div><span class="mp-card-tag">Landscape</span><span class="mp-card-title">Landscape &amp; Garden</span></a>
 						</div>
 					</div>
 					<button class="mp-btn mp-next"><i class="fa fa-angle-right"></i></button>
@@ -300,7 +300,7 @@
 		<div class="cta-strip">
 			<div class="container">
 				<h2>Have a Project in Mind?</h2>
-				<a href="contact.html">Start a Conversation</a>
+				<a href="/contact">Start a Conversation</a>
 			</div>
 		</div>
 
@@ -325,22 +325,22 @@
 				<div class="fg-col">
 					<h4 class="fg-heading">Navigate</h4>
 					<ul class="fg-list">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="project.html">Our Projects</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About Us</a></li>
+						<li><a href="/projects">Our Projects</a></li>
+						<li><a href="/news">News</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
 				</div>
 				<div class="fg-col">
 					<h4 class="fg-heading">Services</h4>
 					<ul class="fg-list">
-						<li><a href="project.html">Residential Design</a></li>
-						<li><a href="project.html">Commercial Buildings</a></li>
-						<li><a href="project.html">Government Projects</a></li>
-						<li><a href="project.html">Interior Design</a></li>
-						<li><a href="project.html">Hospital Design</a></li>
-						<li><a href="project.html">Landscape &amp; Garden</a></li>
+						<li><a href="/projects">Residential Design</a></li>
+						<li><a href="/projects">Commercial Buildings</a></li>
+						<li><a href="/projects">Government Projects</a></li>
+						<li><a href="/projects">Interior Design</a></li>
+						<li><a href="/projects">Hospital Design</a></li>
+						<li><a href="/projects">Landscape &amp; Garden</a></li>
 					</ul>
 				</div>
 				<div class="fg-col">
