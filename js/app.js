@@ -1,13 +1,18 @@
 (function($, document, window){
-	
+
 	$(document).ready(function(){
 
 		// Cloning main navigation for mobile menu
 		$(".mobile-navigation").append($(".main-navigation .menu").clone());
 
-		// Mobile menu toggle 
+		// Mobile menu toggle
 		$(".menu-toggle").click(function(){
 			$(".mobile-navigation").slideToggle();
+		});
+
+		// Apply data-bg-image attributes as CSS background-image on hero slides
+		$(".hero-slider .slides li[data-bg-image]").each(function(){
+			$(this).css("background-image", "url('" + $(this).data("bg-image") + "')");
 		});
 
 		// hero-slider
@@ -19,26 +24,6 @@
 			nextText:'<i class="fa fa-angle-right"></i>',
 		});
 
-		$(".testimonial-slider").flexslider({
-			controlNav: true,
-			directionNav: false,
-			animation: "slide"
-		});
-
-	    if( $(".map").length ) {
-			$('.map').gmap3({
-				map: {
-					options: {
-						maxZoom: 14 
-					}  
-				},
-				marker:{
-					address: "40 Sibley St, Detroit",
-				}
-			},
-			"autofit" );
-	    	
-	    }
 	});
 
 	$(window).load(function(){
